@@ -7,7 +7,8 @@
 //
 
 #import "LXFGestureLock.h"
-#import "LXFUtils.h"
+#import "UIView+frame.h"
+#import "UIView+LXFAnimater.h"
 
 @interface LXFGestureLock ()
 

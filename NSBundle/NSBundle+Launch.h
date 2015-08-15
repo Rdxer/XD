@@ -28,7 +28,7 @@ typedef NS_ENUM(NSInteger, AppVersionComparisonResult) {
 };
 
 
-@interface NSBundle (LXFLaunch)
+@interface NSBundle (Launch)
 /**
  *  当前 版本号
  */

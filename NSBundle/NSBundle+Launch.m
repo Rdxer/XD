@@ -5,11 +5,11 @@
 //  Copyright (c) 2015年 Xiaofeng Li . All rights reserved.
 //
 
-#import "NSBundle+LXFLaunch.h"
+#import "NSBundle+Launch.h"
 
 
 
-@implementation NSBundle (LXFLaunch)
+@implementation NSBundle (Launch)
 
 // 获取当前的软件版本号
 +(NSString *)currentlyVersionID

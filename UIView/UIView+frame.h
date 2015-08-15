@@ -1,6 +1,6 @@
 //
 //  UIView+LXFOptionSize.h
-//  0720-QQ好友列表+聊天界面
+
 //
 //  Created by Xiaofeng Li  on 15/7/21.
 //  Copyright (c) 2015年 Xiaofeng Li . All rights reserved.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (LXFHandler)
+@interface UIView (frame)
 /**
  *  封装了对 view 的一些直接的操作
  */
