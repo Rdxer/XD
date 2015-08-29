@@ -7,7 +7,7 @@
 //
 
 #import "LXFSAXVideo.h"
-#import "Video.h"
+
 
 @interface LXFSAXVideo ()<NSXMLParserDelegate>
 

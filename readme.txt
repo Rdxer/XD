@@ -8,3 +8,4 @@ NSBundle		启动版本号/是第一次启动的分类
 NSString		沙盒路径
 UIBarButtonItem		UIBarButtonItem	分类
 XML			xml 解析使用工具类
+Cryptor			加密工具	
