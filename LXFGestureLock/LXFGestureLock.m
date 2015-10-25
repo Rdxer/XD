@@ -86,7 +86,7 @@
 
     int count=(int)self.selectButtonArray.count;
     for (int index=0; index<count; index++) {
-        key= [key stringByAppendingFormat:@"%ld",[self.selectButtonArray[index] tag]];
+        key= [key stringByAppendingFormat:@"%zd",[self.selectButtonArray[index] tag]];
     }
 //    
 //    NSLog(@"%@",key);

@@ -254,7 +254,7 @@
                                 &cipherBufferSize
                                 );
     
-    NSAssert(sanityCheck == noErr, @"加密错误，OSStatus == %d", sanityCheck);
+    NSAssert(sanityCheck == noErr, @"加密错误，OSStatus == %d", (int)sanityCheck);
     
     // 生成密文数据
     cipher = [NSData dataWithBytes:(const void *)cipherBuffer length:(NSUInteger)cipherBufferSize];
@@ -300,7 +300,7 @@
                                 &keyBufferSize
                                 );
     
-    NSAssert1(sanityCheck == noErr, @"解密错误，OSStatus == %d", sanityCheck);
+    NSAssert1(sanityCheck == noErr, @"解密错误，OSStatus == %zd", sanityCheck);
     
     // 生成明文数据
     key = [NSData dataWithBytes:(const void *)keyBuffer length:(NSUInteger)keyBufferSize];
